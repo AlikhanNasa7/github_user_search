@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(39, 39, 72);
+}
+
+
+*{
+    color: white;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.switcher{
+    background-color: transparent;
+    border: 0;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}

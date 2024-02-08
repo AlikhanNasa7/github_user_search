@@ -1,0 +1,41 @@
+.data{
+    padding: 40px;
+    background-color: rgba(255,255,255,0.15);
+    border-radius: 20px;
+    display: flex;
+    gap:30px
+}
+
+.avatarka{
+    width: 100px;
+    height: 100px;
+}
+
+.basicdata > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.basicdata{
+    width: 100%;
+}
+.bio{
+    width: 100%;
+}
+
+.specificdatas{
+    display: flex;
+    padding: 20px;
+    background-color: rgb(39, 39, 72);
+    border-radius: 15px;
+}
+.specificdata{
+    flex:1;
+    
+}
+
+.links{
+    display: grid;
+    width: auto;
+    grid-template-columns: repeat(2,1fr);
+}
